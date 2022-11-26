@@ -29,6 +29,7 @@ h4 {
   margin-right: 80px;
 }
 .participants {
+  position: relative;
   padding: 50px 0;
 }
 
@@ -37,4 +38,20 @@ h4 {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.wave {
+  width: 100vw;
+
+  z-index: 20;
+}
+
+.wv1 {
+  position: relative;
+  top: -240px;
+}
+
+.wv2 {
+  position: relative;
+  bottom: -240px;
 }
