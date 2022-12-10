@@ -34,8 +34,6 @@
 .marcar-agenda {
   margin-top: 40px;
   margin-left: 210px;
-  position: sticky;
-  bottom: 0px;
 }
 .outline-light:hover {
   background-color: var(--color-grey-4);
